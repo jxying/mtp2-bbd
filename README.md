@@ -1,5 +1,5 @@
 # mtp2-bbd
-Matlab, Rm and Python implementations on how to use bridge-block decomposition to acclerate the learning of large-scale sparse MTP2 Gaussian graphical models proposed in [1]. 
+Matlab, R and Python implementations on how to use bridge-block decomposition to acclerate the learning of large-scale sparse MTP2 Gaussian graphical models proposed in [1]. 
 
 The codes contain following procedures.
 
