@@ -1,17 +1,17 @@
 # mtp2-bbd
 Matlab, R and Python implementations on how to use bridge-block decomposition to acclerate the learning of large-scale sparse MTP2 Gaussian graphical models, formulated as
-$$
-	\begin{array}{ll}
-		\underset{\boldsymbol{\Theta}\in\mathcal{M}^p}{\mathsf{minimize}} & -\log\det\left(\boldsymbol{\Theta}\right)+\left\langle \boldsymbol{\Theta},\bm{S}\right\rangle +\sum_{i\neq j}\Lambda_{ij}\left|\Theta_{ij}\right|,
-	\end{array}
-$$
-where 
-$$
-	\mathcal{M}^{p}=\left\{ \boldsymbol{\Theta}\in \mathbb{S}^p \left|\boldsymbol{\Theta}\succ\bm{0}\text{ and }\Theta_{ij}\leq0,\forall i\neq j\right.\right\},
-$$
-using the methods proposed in [1]. 
 
-The codes contain following procedures.
+$$
+\mathsf{minimize}  -\log\det\left(\boldsymbol{\Theta}\right)+\left\langle \boldsymbol{\Theta},\mathbf{S}\right\rangle +\sum_{i\neq j}\Lambda_{ij}\left|\Theta_{ij}\right|, 
+$$
+
+subject to  
+
+$$ 
+	\boldsymbol{\Theta}\succ\mathbf{0}, \text{ and } \Theta_{ij}\leq0,\forall i\neq j
+$$ 
+
+using the methods proposed in [1]. The codes contain following procedures.
 
 (1) Generating the data.
 
