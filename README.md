@@ -25,7 +25,7 @@ Please skip first step if you have data matrix or sample covariance matrix provi
 
 # Installation
 
-'''
+'''r
 library(devtools)
 devtools::install_github("Xiwen1997/mtp2-bbd-Rpkg")
 '''
