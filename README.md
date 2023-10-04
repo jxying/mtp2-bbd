@@ -22,14 +22,7 @@ using the methods proposed in [1]. The codes contain following procedures.
 (4) Obtaining optimal solution using methods in [1].
 
 Please skip first step if you have data matrix or sample covariance matrix provided. The methods could significantly accelerate the convergence of existing algroithms and reduce memory cost when the thresholded graphs are sparse. 
-
-# Installation
-
-```r
-library(devtools)
-devtools::install_github("Xiwen1997/mtp2-bbd-Rpkg")
-```
-
+ 
 # References
 
 [1] Xiwen Wang, Jiaxi Ying, and Daniel P. Palomar, 'Learning Large-Scale MTP2 Gaussian Graphical Models via Bridge-Block Decomposition,' accepted in Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
