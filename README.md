@@ -25,10 +25,10 @@ Please skip first step if you have data matrix or sample covariance matrix provi
 
 # Installation
 
-'''r
+```r
 library(devtools)
 devtools::install_github("Xiwen1997/mtp2-bbd-Rpkg")
-'''
+```
 
 
 [1] Xiwen Wang, Jiaxi Ying, and Daniel P. Palomar, 'Learning Large-Scale MTP2 Gaussian Graphical Models via Bridge-Block Decomposition,' accepted in Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
