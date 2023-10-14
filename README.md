@@ -19,7 +19,7 @@ The codes contain following procedures.
 
 (3) Obtaining optimal solution using methods in [2].
 
-The bridge-block decomposition is designed to reduce the computational and memory costs of existing algorithms like FPN, especially in cases involving large-scale data. You may consider using the [FPN solver] (https://github.com/jxying/mtp2) only when there are no significant computational and memory demands.
+The bridge-block decomposition is designed to reduce the computational and memory costs of existing algorithms like FPN, especially in cases involving large-scale data. You may consider using the [FPN solver](https://github.com/jxying/mtp2) only when there are no significant computational and memory demands.
 
  
 ## References
