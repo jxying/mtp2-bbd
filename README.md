@@ -24,9 +24,9 @@ The bridge-block decomposition is designed to reduce the computational and memor
  
 ## References
 
-[1] J.-F. Cai, J. V. de Miranda Cardoso, D. P. Palomar, and J. Ying, "Fast Projected Newton-like Method for Precision Matrix Estimation under Total Positivity", Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
+[1] J.-F. Cai, J. V. de Miranda Cardoso, D. P. Palomar, and J. Ying, "Fast Projected Newton-like Method for Precision Matrix Estimation under Total Positivity", Advances in Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
 
-[2] X. Wang, J. Ying, and D. P. Palomar, "Learning Large-Scale MTP2 Gaussian Graphical Models via Bridge-Block Decomposition," Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
+[2] X. Wang, J. Ying, and D. P. Palomar, "Learning Large-Scale MTP2 Gaussian Graphical Models via Bridge-Block Decomposition," Advances in Neural Information Processing Systems (NeurIPS), New Orleans, LA, USA, Dec. 2023.
 
 
 
