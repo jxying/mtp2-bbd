@@ -13,30 +13,14 @@ $$
 
 The codes contain following procedures.
 
-(1) Generating the data.
+(1) Computing thresholded graph and bridge-block decomposition.
 
-(2) Computing thresholded graph and bridge-block decomposition.
+(2) Solving sub-problems individually using FPN solver [1].
 
-(3) Solving sub-problems individually using FPN solver [1].
+(3) Obtaining optimal solution using methods in [2].
 
-(4) Obtaining optimal solution using methods in [2].
+The first step is designed to reduce the computational and memory costs of existing algorithms like FPN, especially in cases involving large-scale data.
 
-Please skip first step if you have data matrix or sample covariance matrix provided. The methods could significantly accelerate the convergence of existing algroithms and reduce memory cost when the thresholded graphs are sparse. 
-
-## Simple Usage
-
-Use fast projected Newton-like method:
-
-```
-opts_FPN = {'max_iter': 1e4, 'tol': 1e-10}
-Theta = solver_fpn(S, Lambda, opts_FPN)
-```
-
-Use bridge-block decomposition approach:
-
-```
-Theta = solver_bbd(S, Lambda)
-```
  
 ## References
 
